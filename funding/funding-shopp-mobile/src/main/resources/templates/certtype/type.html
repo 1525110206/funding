@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Dashboard Template for Bootstrap</title>
+		<!-- Bootstrap core CSS -->
+		<link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.3.0/css/bootstrap.css}" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="asserts/css/dashboard.css" th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+		<style type="text/css">
+			/* Chart.js */
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--引入topbar-->
+		<div th:replace="common/bar::topbar"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<!--引入sidebar-->
+				<div th:replace="common/bar::#sidebar(activeUri='main.html')"></div>
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+					<div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+						<div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+							<div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>
+						</div>
+						<div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+							<div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
+						</div>
+					</div>
+					<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"><i class="glyphicon glyphicon-th"></i> 数据矩阵</h3>
+							</div>
+							<div class="panel-body">
+								<div class="table-responsive">
+									<table class="table  table-bordered">
+										<thead>
+										<tr >
+											<th>名称</th>
+											<th >商业公司</th>
+											<th >个体工商户</th>
+											<th >个人经营</th>
+											<th >政府及非营利组织</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr th:each="cert:${allCert}">
+											<td th:text="${cert.name}"></td>
+											<td><input type="checkbox" th:attr="certid=${cert.id}" accttype="0"></td>
+											<td><input type="checkbox" th:attr="certid=${cert.id}" accttype="1"></td>
+											<td><input type="checkbox" th:attr="certid=${cert.id}" accttype="2"></td>
+											<td><input type="checkbox" th:attr="certid=${cert.id}" accttype="3"></td>
+										</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<canvas class="my-4 chartjs-render-monitor" id="myChart" width="1076" height="454" style="display: block; width: 1076px; height: 454px;"></canvas>
+
+					
+				</main>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="asserts/js/popper.min.js" th:src="@{/webjars/popper.js/1.11.1/dist/popper.js}"></script>
+
+		<script type="text/javascript" src="asserts/js/feather.min.js" th:src="@{/asserts/js/feather.min.js}"></script>
+		<script>
+			feather.replace()
+		</script>
+		<script src="asserts/jquery/jquery-2.1.1.min.js" th:src="@{/asserts/jquery/jquery-2.1.1.min.js}"></script>
+		<script src="asserts/bootstrap/js/bootstrap.min.js" th:src="@{/asserts/bootstrap/js/bootstrap.min.js}"></script>
+		<script src="asserts/script/docs.min.js" th:src="@{/asserts/script/docs.min.js}"></script>
+		<script src="asserts/jquery/pagination/jquery.pagination.js" th:src="@{/asserts/jquery/pagination/jquery.pagination.js}"></script>
+		<script type="text/javascript">
+
+            var pathName = document.location.pathname;
+            var index = pathName.substr(1).indexOf("/");
+            var result = pathName.substr(0,index+1);
+
+            $.ajax({
+                type : "GET",
+                url  : result + "/certtype/queryAllCertAccttype",  //获取各个账号类型所需证书
+                success : function(result) {
+                    if ( result.success ) {
+                        var certAccttypeList = result.data;
+                        $.each(certAccttypeList, function (i ,n) {
+                            $(":checkbox[certid='"+ n.certid +"'][accttype=" + n.accttype + "]")[0].checked=true;
+                        });
+                    } else {
+                        alert("获取数据失败");
+                    }
+                }
+            });
+
+
+            $(":checkbox").click(function(){
+                var flg = this.checked;
+                //通过this.certid能否获取自定义的属性值?
+                var certid = $(this).attr("certid");
+                var accttype = $(this).attr("accttype");
+
+                if ( flg ) {
+
+                    // 增加账户类型和资质的关系
+                    $.ajax({
+                        type : "POST",
+                        url  : result + "/certtype/insertAllAcctTypeCert",
+                        data : {
+                            certid : certid,
+                            accttype : accttype
+                        },
+                        success : function(result) {
+                            if ( result.success ) {
+
+                            } else {
+                                layer.msg("分类关系保存失败", {time:1000, icon:5, shift:6});
+                            }
+                        }
+                    });
+
+                } else {
+
+                    // 删除账户类型和资质的关系
+                    $.ajax({
+                        type : "POST",
+                        url  : result + "/certtype/deleteAllAcctTypeCert",
+                        data : {
+                            certid : certid,
+                            accttype : accttype
+                        },
+                        success : function(result) {
+                            if ( result.success ) {
+
+                            } else {
+                                layer.msg("分类关系删除失败", {time:1000, icon:5, shift:6});
+                            }
+                        }
+                    });
+                }
+
+            });
+
+
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.dao.CertMapper">
+
+    <resultMap id="BaseResultMap" type="com.springboot.entity.CertEntity" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name"/>
+    </resultMap>
+
+
+    <!--<select id="queryCertByAccttype" resultType="com.springboot.entity.CertEntity" >-->
+    	<!--SELECT * FROM t_cert WHERE id IN (SELECT certid FROM t_account_type_cert WHERE accttype=#{accttype})-->
+    <!--</select>-->
+    
+    
+    <select id="queryAllCert" resultMap="BaseResultMap">
+    	select * from t_cert
+    </select>
+
+
+    <select id="queryCertByAccttype" resultType="com.springboot.entity.CertEntity">
+        SELECT * FROM t_cert WHERE id IN (SELECT certid FROM t_account_type_cert WHERE accttype=#{accttype})
+    </select>
+
+    <insert id="insertMemberCert">
+        insert into t_member_cert(memberid,certid,iconpath) values(#{memberid},#{certid},#{iconpath});
+    </insert>
+
+    
+    <!--<select id="queryAllAccttypeCert" resultType="map">-->
+    	<!--select accttype,certid from t_account_type_cert-->
+    <!--</select>-->
+    <!---->
+    <!--<insert id="insertAccttypeCert">-->
+    	<!--insert into t_account_type_cert(accttype,certid) values(#{accttype},#{certid})-->
+    <!--</insert>-->
+    <!---->
+    <!---->
+    <!--<delete id="deleteAccttypeCert">-->
+    	<!--delete from t_account_type_cert where accttype=#{accttype} and certid=#{certid}-->
+    <!--</delete>-->
+    <!---->
+
+	<!--<insert id="insertMemberCert">-->
+		<!--insert into t_member_cert(memberid,certid,iconpath) values(#{memberid},#{certid},#{iconpath});	-->
+	<!--</insert>-->
+</mapper>

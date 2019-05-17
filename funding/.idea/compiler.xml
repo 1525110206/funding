@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="funding-shopp-common" />
+        <module name="funding-shopp-eurekaserver" />
+        <module name="funding-shopp-manager" />
+        <module name="funding-shopp-manager-api" />
+        <module name="funding-shopp-member" />
+        <module name="funding-shopp-member-api" />
+        <module name="funding-shopp-message" />
+        <module name="funding-shopp-mobile" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="funding" target="1.8" />
+      <module name="funding-shopp-api" target="1.8" />
+      <module name="funding-shopp-common" target="1.8" />
+      <module name="funding-shopp-eurekaserver" target="1.8" />
+      <module name="funding-shopp-manager" target="1.8" />
+      <module name="funding-shopp-manager-api" target="1.8" />
+      <module name="funding-shopp-member" target="1.8" />
+      <module name="funding-shopp-member-api" target="1.8" />
+      <module name="funding-shopp-message" target="1.8" />
+      <module name="funding-shopp-mobile" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

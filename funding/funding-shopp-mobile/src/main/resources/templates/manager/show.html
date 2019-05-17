@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Dashboard Template for Bootstrap</title>
+		<link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.3.0/css/bootstrap.css}" rel="stylesheet">
+		<link href="asserts/css/dashboard.css" th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+		<style type="text/css">
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--引入抽取的topbar-->
+		<!--模板名：会使用thymeleaf的前后缀配置规则进行解析-->
+		<div th:replace="common/bar::topbar"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<!--引入侧边栏-->
+				<div th:replace="common/bar::#sidebar(activeUri='emps')"></div>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+
+					<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+						<div class="table-responsive">
+							<form>
+
+								<input id="memberid" type="hidden" th:value="${member.id}">
+
+								<div class="form-group">
+									<label for="realname">会员真实姓名:</label>
+									<p th:text="${member.realname}"></p>
+								</div>
+								<div class="form-group">
+									<label for="cardnum">会员身份证号</label>
+									<p th:text="${member.cardnum}"></p>
+								</div>
+								<div class="form-group">
+									<label for="phone">会员电话号</label>
+									<p th:text="${member.phone}"></p>
+								</div>
+
+								<div class="form-group">
+									<label for="accttype">账号认证类型:</label>
+									<p th:text="${member.accttype}"></p>
+								</div>
+
+								<hr>
+									<div class="form-group" th:each="cert:${certimgs}">
+										<label for="frealname" th:text="${cert.name }">${map.name }</label><br>
+										<img th:src="@{/pics/cert/} + ${cert.iconpath} ">
+									</div>
+
+								<button id="passBtn" type="button" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> 通过</button>
+								<button id="refuseBtn" type="button" class="btn btn-danger"><i class="glyphicon glyphicon-refresh"></i> 拒绝</button>
+							</form>
+							<input type="hidden" id="APP_PATH" th:value="${application.APP_PATH}">
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="asserts/jquery/jquery-2.1.1.min.js" th:src="@{/asserts/jquery/jquery-2.1.1.min.js}"></script>
+		<script src="asserts/bootstrap/js/bootstrap.min.js" th:src="@{/asserts/bootstrap/js/bootstrap.min.js}"></script>
+		<script src="asserts/script/docs.min.js" th:src="@{/asserts/script/docs.min.js}"></script>
+		<script src="asserts/jquery/pagination/jquery.pagination.js" th:src="@{/asserts/jquery/pagination/jquery.pagination.js}"></script>
+
+
+		<script type="text/javascript" src="asserts/jquery/layer/layer.js" th:src="@{/asserts/jquery/layer/layer.js}"></script>
+		
+		<script type="text/javascript">
+
+			var memberid = $("#memberid").val();
+            var APP_PATH = $("#APP_PATH").val();
+
+            $("#passBtn").click(function(){
+                    $.ajax({
+                        type : "POST",
+                        dataType : "json",
+                        url  : APP_PATH + "/manager/showPass",
+                        data : {
+                            "id" : memberid
+                        },
+                        success : function(result) {
+                            if ( result.success ) {
+                                window.location.href = APP_PATH + "/manager/task.html";
+                            } else {
+                                layer.msg("审核操作失败，请重试", {time:1000, icon:5, shift:6});
+                            }
+                        }
+                    });
+            });
+
+            $("#refuseBtn").click(function(){
+                    $.ajax({
+                        type : "POST",
+                        dataType : "json",
+                        url  : APP_PATH + "/manager/showRefuse",  //更新账户的类型
+                        data : {
+                            "id" : memberid
+                        },
+                        success : function(result) {
+                            if ( result.success ) {
+                                window.location.href = APP_PATH + "/manager/task.html";
+                            } else {
+                                layer.msg("审核操作失败，请重试", {time:1000, icon:5, shift:6});
+                            }
+                        }
+                    });
+            });
+
+
+
+		</script>
+	</body>
+
+</html>

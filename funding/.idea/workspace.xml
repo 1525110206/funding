@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76692c72-7175-49e8-83f7-f3c08ff5f689" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-eurekaserver/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-mobile/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-api/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-member/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-common/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-message/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-api/funding-shopp-manager-api/target/" />
+    <ignored path="$PROJECT_DIR$/funding-shopp-manager/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/funding$ManagerServer.coverage" NAME="ManagerServer Coverage Results" MODIFIED="1554186926147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springboot.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/funding$EurekaServer.coverage" NAME="EurekaServer Coverage Results" MODIFIED="1554186957060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springboot.app.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/funding$AppMobile.coverage" NAME="AppMobile Coverage Results" MODIFIED="1554359096499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springboot.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5856">
+              <caret line="415" column="29" lean-forward="false" selection-start-line="415" selection-start-column="8" selection-end-line="415" selection-end-column="29" />
+              <folding>
+                <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808991941" expanded="false" signature="155:1983" ph="..." />
+                <marker date="1547808991941" expanded="false" signature="4967:4978" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="5015:5021" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="5097:5188" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5268:5341" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5421:5494" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5594:5687" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5763:5832" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5924:6009" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="6078:6089" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="6136:6142" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="6200:6211" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="6240:6246" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="6310:6723" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="6792:7403" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="7469:8124" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8189:8832" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8899:9994" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="10061:11156" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="11233:12480" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="12559:13316" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="13381:14446" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14513:15180" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="15228:15360" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="15419:15430" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="15460:15466" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="15563:15906" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="16011:17378" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="17467:17548" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="17654:19779" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="19886:23083" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="23185:23308" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="23499:24765" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="24848:25174" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="24997:25058" ph="getLocale() → {" />
+                <marker date="1547808991941" expanded="false" signature="25152:25167" ph="}" />
+                <marker date="1547808991941" expanded="true" signature="25278:26344" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="26416:26693" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="26759:27043" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="27137:27696" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="27807:28315" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="28404:28988" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="29146:30254" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="30374:31776" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="31863:31931" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="32072:32433" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="32601:32747" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="32854:33988" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="34058:34254" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="34267:34652" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerExecutionChain.class" pinned="false" current-in-tab="true">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808991941" expanded="false" signature="155:470" ph="..." />
+                <marker date="1547808991941" expanded="false" signature="813:824" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="866:872" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="959:1556" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="1588:1599" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="1619:1625" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="1689:1700" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="1744:1750" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="1820:1984" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="2045:2388" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="2440:2702" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="2806:3342" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="3461:3818" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="3941:4483" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="4588:5330" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="5361:6036" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/HandlerAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808991941" expanded="false" signature="155:240" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotationMethodHandlerAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2320">
+              <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
+              <folding>
+                <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808991941" expanded="false" signature="170:5249" ph="..." />
+                <marker date="1547808991941" expanded="true" signature="5251:5269" ph="/**...*/" />
+                <marker date="1547808991941" expanded="true" signature="6816:7208" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="7274:7349" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="7398:7409" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="7452:7458" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="7522:7646" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="7704:7820" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="7899:7960" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8048:8115" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8203:8359" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8465:8568" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8640:8705" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8799:8870" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="8952:9043" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="9130:9195" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="9292:9398" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="9500:9579" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="9663:9722" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="9783:9794" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="9824:9830" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="9867:9878" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="9897:9903" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="9930:9941" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="9959:9965" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="10023:10274" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="10319:10330" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="10389:10395" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="10519:11633" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="11773:12664" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="12741:12752" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="12763:12769" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="12877:13692" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="13825:13897" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14005:14073" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14185:14255" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14392:18764" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14609:14736" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="14895:16686" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="16843:17637" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="17729:18014" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="18125:18758" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="18868:19748" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="19055:19121" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="19215:19305" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="19367:19382" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="19423:19433" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="19510:19589" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="19634:19742" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="19786:23186" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="20062:20360" ph="{...}" />
+                <marker date="1547808991941" expanded="false" signature="20398:20413" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="20445:20455" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="20494:20509" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="20530:20540" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="20577:20592" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="20619:20629" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="20665:20680" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="20706:20716" ph=" }" />
+                <marker date="1547808991941" expanded="false" signature="20753:20768" ph=" { " />
+                <marker date="1547808991941" expanded="false" signature="20795:20805" ph=" }" />
+                <marker date="1547808991941" expanded="true" signature="20866:20999" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="21067:21164" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="21235:21334" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="21408:21511" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="21554:21928" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="21972:22310" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="22342:22514" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="22549:23180" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="23263:37779" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="23388:23770" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="23881:23993" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="24081:24153" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="24280:24455" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="24555:24752" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="24858:25087" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="25195:25406" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="25467:26026" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="26157:26666" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="26799:27395" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="27516:29949" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="30138:33623" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="33732:34068" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="34193:35171" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="35361:37773" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="37858:51617" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="38016:38106" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="38165:39639" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="39736:46838" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="46912:47263" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="47334:47520" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="47638:49466" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="49571:50699" ph="{...}" />
+                <marker date="1547808991941" expanded="true" signature="50824:51611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerMethodInvoker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+              <folding>
+                <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808992619" expanded="false" signature="171:3325" ph="..." />
+                <marker date="1547808992619" expanded="true" signature="3327:3345" ph="/**...*/" />
+                <marker date="1547808992619" expanded="true" signature="4085:4151" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="4265:4448" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="4748:5151" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="5313:8263" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="8433:10772" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="10935:18304" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="18437:20142" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="20301:23279" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="23485:25222" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="25339:26528" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="26736:27999" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="28117:29375" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="29508:29648" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="29776:30086" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="30230:31807" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="31877:32793" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="32999:33884" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="34011:34097" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="34266:34801" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="34930:35017" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="35092:35444" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="35523:36030" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="36220:37157" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="37214:37393" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="37500:37627" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="37732:37857" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="37962:38093" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="38177:38234" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="38357:38425" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="38585:38857" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="38953:39017" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="39119:39205" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="39309:39388" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="39452:39551" ph="{...}" />
+                <marker date="1547808992619" expanded="false" signature="39607:39618" ph=" { " />
+                <marker date="1547808992619" expanded="false" signature="39631:39637" ph=" }" />
+                <marker date="1547808992619" expanded="true" signature="39761:40840" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="40957:41075" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="41229:41726" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextLoader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2240">
+              <caret line="171" column="39" lean-forward="false" selection-start-line="171" selection-start-column="39" selection-end-line="171" selection-end-column="39" />
+              <folding>
+                <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808992619" expanded="false" signature="155:1464" ph="..." />
+                <marker date="1547808992619" expanded="true" signature="2677:2684" ph="{}" />
+                <marker date="1547808992619" expanded="false" signature="2741:2752" ph=" { " />
+                <marker date="1547808992619" expanded="false" signature="2775:2781" ph=" }" />
+                <marker date="1547808992619" expanded="true" signature="2869:3234" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="3326:6306" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="6391:6855" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="6933:7811" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="7931:8900" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="8996:10377" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="10534:11602" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="11724:12310" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="12394:13262" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="13338:14814" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="14890:15213" ph="{...}" />
+                <marker date="1547808992619" expanded="true" signature="15226:15660" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/ServletContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+              <folding>
+                <marker date="1547808990842" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808990842" expanded="false" signature="137:426" ph="..." />
+                <marker date="1547808990842" expanded="true" signature="1104:1122" ph="/**...*/" />
+                <marker date="1547808990842" expanded="true" signature="1189:1207" ph="/**...*/" />
+                <marker date="1547808990842" expanded="true" signature="1253:1271" ph="/**...*/" />
+                <marker date="1547808990842" expanded="true" signature="1348:1366" ph="/**...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding>
+                <marker date="1547808991844" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808991844" expanded="false" signature="149:933" ph="..." />
+                <marker date="1547808991844" expanded="true" signature="1190:1197" ph="{}" />
+                <marker date="1547808991844" expanded="true" signature="1285:1879" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="1972:2445" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="2561:2658" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="2772:3555" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="3649:3857" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="3959:4230" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="4356:4621" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="4755:5077" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="5205:6597" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="6675:8300" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="8402:8537" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="8657:8803" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="8901:8982" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="9096:9562" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="9641:11348" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="11437:11908" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="11991:12199" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="12260:12431" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="12493:12790" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="12882:12958" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="13069:13142" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="13262:13340" ph="{...}" />
+                <marker date="1547808991844" expanded="true" signature="13480:15702" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurableWebApplicationContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/ConfigurableWebApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1547808992619" expanded="false" signature="155:287" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RESOURCE_LOCATIONS</find>
+      <find>thumbnail</find>
+      <find>ticketFeign</find>
+      <find>updateAcct</find>
+      <find>updateBasicinfomation</find>
+      <find>apply</find>
+      <find>api</find>
+      <find>menu</find>
+      <find>sub-frame</find>
+      <find>script</find>
+      <find>sidebar</find>
+      <find>navbar-right</find>
+      <find>dashboard</find>
+      <find>queryBtn</find>
+      <find>queryAnswerList</find>
+      <find>doanswer</find>
+      <find>accttype</find>
+      <find>toMemberBaseInfo</find>
+      <find>.navbar</find>
+      <find>.navbar-nav</find>
+      <find>navbar</find>
+      <find>APP_PATH</find>
+      <find>queryCertByAccttype</find>
+      <find>updatePiidAndPstep</find>
+      <find>getTicketByMemberId</find>
+      <find>updateAuthstatus</find>
+      <find>webmvcconfig</find>
+      <find>WebMvcConfigurerAdapter</find>
+      <find>getInstantiationStrategy</find>
+      <find>factoryBeanObjectCache</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userFeign</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/manager/add.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/listener/StartSystemListener.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/AppMobile.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-common/src/main/java/com/springboot/entity/Data.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/test/java/com/springboot/AppTest.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/dao/TicketMapper.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/TicketServiceManager.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/TicketServiceManagerImpl.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/UserServiceManager.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/UserServiceManagerImpl.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/manager/show.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/dao/AnswerMapper.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/AnswerServiceManager.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/AnswerServiceManagerImpl.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/member/QuestionController.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/manager/task.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/src/main/java/com/springboot/entity/AnswerEntity.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/resources/mybatis/mapper/AnswerMapper.xml" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/accttype.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/checkemail.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/uploadCert.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/src/main/java/com/springboot/entity/QuestionEntity.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/manager/managerQuestion.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-common/src/main/java/com/springboot/constants/TimeConstants.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/manager/manager.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/static/asserts/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/reg.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-message/src/main/java/com/springboot/service/SMSMailboxService.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/basicinfo.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/resources/mybatis/mapper/TicketMapper.xml" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/checkauthcode.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/manager/ManagerController.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/member/MemberController.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/resources/mybatis/mapper/QuestionMapper.xml" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/member/AnswerController.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/src/main/java/com/springboot/api/UserService.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/api/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/QuestionServiceManager.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/QuestionServiceManagerImpl.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/dao/QuestionMapper.java" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/common/bar.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/memberBaseInfo.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/member/memberanswer.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/answer.html" />
+        <option value="$PROJECT_DIR$/funding-shopp-mobile/src/main/resources/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\DwvInstall\RepMaven" />
+        <option name="mavenHome" value="F:/DwvInstall/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="F:\DwvInstall\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="509" />
+    <option name="y" value="1" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="funding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2735632" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates\member" />
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.config" />
+      <recent name="com.springboot.controller" />
+      <recent name="com.springboot.utils" />
+      <recent name="com.springboot.entity" />
+      <recent name="com.springboot.app.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates\manager" />
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates\member" />
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates\certtype" />
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\templates\common" />
+      <recent name="E:\graduate\funding\funding-shopp-mobile\src\main\resources\static\asserts\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AppMobile">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="AppMobile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.AppMobile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funding-shopp-mobile" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.app.EurekaServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funding-shopp-eurekaserver" />
+      <envs />
+    </configuration>
+    <configuration name="ManagerServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.ManagerServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funding-shopp-manager" />
+      <envs />
+    </configuration>
+    <configuration name="MemberServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.MemberServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funding-shopp-member" />
+      <envs />
+    </configuration>
+    <configuration name="MessageServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.springboot.MessageServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="funding-shopp-message" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.EurekaServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AppMobile" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MemberServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ManagerServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MessageServer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.AppMobile" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MemberServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EurekaServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MessageServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ManagerServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76692c72-7175-49e8-83f7-f3c08ff5f689" name="Default" comment="" />
+      <created>1553327685725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553327685725</updated>
+      <workItem from="1553327688638" duration="647000" />
+      <workItem from="1553328402118" duration="3169000" />
+      <workItem from="1553391807722" duration="2323000" />
+      <workItem from="1553405564448" duration="11885000" />
+      <workItem from="1553493488448" duration="4592000" />
+      <workItem from="1553589817649" duration="4031000" />
+      <workItem from="1553609634739" duration="322000" />
+      <workItem from="1553610228480" duration="3049000" />
+      <workItem from="1553615168271" duration="1611000" />
+      <workItem from="1553648825248" duration="12218000" />
+      <workItem from="1553673195478" duration="3509000" />
+      <workItem from="1553687700133" duration="8693000" />
+      <workItem from="1553737664695" duration="22934000" />
+      <workItem from="1553840301489" duration="8819000" />
+      <workItem from="1553860622457" duration="592000" />
+      <workItem from="1553929485727" duration="4412000" />
+      <workItem from="1553993999197" duration="1818000" />
+      <workItem from="1554082496494" duration="15697000" />
+      <workItem from="1554173084484" duration="923000" />
+      <workItem from="1554176508741" duration="9393000" />
+      <workItem from="1554187071706" duration="3928000" />
+      <workItem from="1554191848970" duration="4553000" />
+      <workItem from="1554211060200" duration="5360000" />
+      <workItem from="1554255788714" duration="6557000" />
+      <workItem from="1554273779379" duration="12323000" />
+      <workItem from="1554343098756" duration="13822000" />
+      <workItem from="1554359174029" duration="12389000" />
+      <workItem from="1554436690706" duration="12056000" />
+      <workItem from="1554554346449" duration="12591000" />
+      <workItem from="1554598513597" duration="23238000" />
+      <workItem from="1554695544847" duration="33186000" />
+      <workItem from="1554776167490" duration="15096000" />
+      <workItem from="1554800664311" duration="17447000" />
+      <workItem from="1554863843334" duration="26849000" />
+      <workItem from="1554946965216" duration="5836000" />
+      <workItem from="1554961750675" duration="18466000" />
+      <workItem from="1554994957782" duration="10045000" />
+      <workItem from="1555041894470" duration="22573000" />
+      <workItem from="1555166458414" duration="4904000" />
+      <workItem from="1555243587379" duration="7902000" />
+      <workItem from="1555311585244" duration="968000" />
+      <workItem from="1555551620449" duration="152000" />
+      <workItem from="1555665658929" duration="6834000" />
+      <workItem from="1555723165872" duration="1857000" />
+      <workItem from="1556258117610" duration="2216000" />
+      <workItem from="1556264675196" duration="600000" />
+      <workItem from="1556329165909" duration="1875000" />
+      <workItem from="1556414422514" duration="1796000" />
+      <workItem from="1556439284540" duration="1928000" />
+      <workItem from="1556505267006" duration="17078000" />
+      <workItem from="1556591605339" duration="1214000" />
+      <workItem from="1556595578961" duration="10282000" />
+      <workItem from="1556726146330" duration="710000" />
+      <workItem from="1556773400595" duration="2666000" />
+      <workItem from="1556846962030" duration="6233000" />
+      <workItem from="1556901072935" duration="445000" />
+      <workItem from="1556901564130" duration="729000" />
+      <workItem from="1557053614905" duration="1283000" />
+      <workItem from="1557121559567" duration="3173000" />
+      <workItem from="1557241743774" duration="1142000" />
+      <workItem from="1557324657271" duration="686000" />
+      <workItem from="1557572664959" duration="1196000" />
+      <workItem from="1557622742275" duration="933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_test01 - 2019.04.11 at 17h 49m 24s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="455754000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32299545" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="MyBatis Sql Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28938356" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18321918" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5205479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-manager/src/main/java/com/springboot/api/service/impl/CertServiceImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/TicketServiceManagerImpl.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/member/MemberController.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/manager/impl/UserServiceManagerImpl.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/manager/ManagerController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/manager/ManagerController.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/manager/ManagerController.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/controller/manager/ManagerController.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="116" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinitionHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="200" column="52" lean-forward="true" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/config/AbstractFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="259" column="23" lean-forward="false" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/InstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/PropertyAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/AbstractPropertyAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3216">
+          <caret line="277" column="21" lean-forward="false" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15392">
+          <caret line="1078" column="44" lean-forward="false" selection-start-line="1078" selection-start-column="44" selection-end-line="1078" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="119" column="30" lean-forward="false" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5328">
+          <caret line="378" column="51" lean-forward="false" selection-start-line="378" selection-start-column="51" selection-end-line="378" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16464">
+          <caret line="1074" column="25" lean-forward="false" selection-start-line="1074" selection-start-column="25" selection-end-line="1074" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="232" column="31" lean-forward="false" selection-start-line="232" selection-start-column="31" selection-end-line="232" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/ProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/AopProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/AdvisorChainFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/aopalliance/intercept/Joinpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="70" column="73" lean-forward="false" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4880">
+          <caret line="355" column="9" lean-forward="false" selection-start-line="355" selection-start-column="9" selection-end-line="355" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/DefaultAopProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/AopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/dao/AnswerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-member/src/main/resources/mybatis/mapper/AnswerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-eurekaserver/src/main/java/com/springboot/app/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-member/src/main/java/com/springboot/MemberServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-mobile/src/main/java/com/springboot/AppMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funding-shopp-common/src/main/java/com/springboot/constants/MQInterfaceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar!/org/springframework/test/context/ContextLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5856">
+          <caret line="415" column="29" lean-forward="false" selection-start-line="415" selection-start-column="8" selection-end-line="415" selection-end-column="29" />
+          <folding>
+            <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808991941" expanded="false" signature="155:1983" ph="..." />
+            <marker date="1547808991941" expanded="false" signature="4967:4978" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="5015:5021" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="5097:5188" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5268:5341" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5421:5494" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5594:5687" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5763:5832" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5924:6009" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="6078:6089" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="6136:6142" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="6200:6211" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="6240:6246" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="6310:6723" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="6792:7403" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="7469:8124" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8189:8832" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8899:9994" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="10061:11156" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="11233:12480" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="12559:13316" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="13381:14446" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14513:15180" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="15228:15360" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="15419:15430" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="15460:15466" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="15563:15906" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="16011:17378" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="17467:17548" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="17654:19779" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="19886:23083" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="23185:23308" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="23499:24765" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="24848:25174" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="24997:25058" ph="getLocale() → {" />
+            <marker date="1547808991941" expanded="false" signature="25152:25167" ph="}" />
+            <marker date="1547808991941" expanded="true" signature="25278:26344" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="26416:26693" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="26759:27043" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="27137:27696" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="27807:28315" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="28404:28988" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="29146:30254" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="30374:31776" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="31863:31931" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="32072:32433" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="32601:32747" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="32854:33988" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="34058:34254" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="34267:34652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/HandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808991941" expanded="false" signature="155:240" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2320">
+          <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
+          <folding>
+            <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808991941" expanded="false" signature="170:5249" ph="..." />
+            <marker date="1547808991941" expanded="true" signature="5251:5269" ph="/**...*/" />
+            <marker date="1547808991941" expanded="true" signature="6816:7208" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="7274:7349" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="7398:7409" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="7452:7458" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="7522:7646" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="7704:7820" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="7899:7960" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8048:8115" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8203:8359" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8465:8568" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8640:8705" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8799:8870" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="8952:9043" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="9130:9195" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="9292:9398" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="9500:9579" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="9663:9722" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="9783:9794" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="9824:9830" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="9867:9878" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="9897:9903" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="9930:9941" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="9959:9965" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="10023:10274" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="10319:10330" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="10389:10395" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="10519:11633" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="11773:12664" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="12741:12752" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="12763:12769" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="12877:13692" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="13825:13897" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14005:14073" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14185:14255" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14392:18764" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14609:14736" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="14895:16686" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="16843:17637" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="17729:18014" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="18125:18758" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="18868:19748" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="19055:19121" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="19215:19305" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="19367:19382" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="19423:19433" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="19510:19589" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="19634:19742" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="19786:23186" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="20062:20360" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="20398:20413" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="20445:20455" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="20494:20509" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="20530:20540" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="20577:20592" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="20619:20629" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="20665:20680" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="20706:20716" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="20753:20768" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="20795:20805" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="20866:20999" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="21067:21164" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="21235:21334" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="21408:21511" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="21554:21928" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="21972:22310" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="22342:22514" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="22549:23180" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="23263:37779" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="23388:23770" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="23881:23993" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="24081:24153" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="24280:24455" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="24555:24752" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="24858:25087" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="25195:25406" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="25467:26026" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="26157:26666" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="26799:27395" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="27516:29949" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="30138:33623" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="33732:34068" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="34193:35171" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="35361:37773" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="37858:51617" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="38016:38106" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="38165:39639" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="39736:46838" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="46912:47263" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="47334:47520" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="47638:49466" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="49571:50699" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="50824:51611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+          <folding>
+            <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808992619" expanded="false" signature="171:3325" ph="..." />
+            <marker date="1547808992619" expanded="true" signature="3327:3345" ph="/**...*/" />
+            <marker date="1547808992619" expanded="true" signature="4085:4151" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="4265:4448" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="4748:5151" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="5313:8263" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="8433:10772" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="10935:18304" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="18437:20142" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="20301:23279" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="23485:25222" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="25339:26528" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="26736:27999" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="28117:29375" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="29508:29648" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="29776:30086" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="30230:31807" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="31877:32793" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="32999:33884" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="34011:34097" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="34266:34801" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="34930:35017" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="35092:35444" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="35523:36030" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="36220:37157" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="37214:37393" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="37500:37627" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="37732:37857" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="37962:38093" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="38177:38234" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="38357:38425" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="38585:38857" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="38953:39017" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="39119:39205" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="39309:39388" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="39452:39551" ph="{...}" />
+            <marker date="1547808992619" expanded="false" signature="39607:39618" ph=" { " />
+            <marker date="1547808992619" expanded="false" signature="39631:39637" ph=" }" />
+            <marker date="1547808992619" expanded="true" signature="39761:40840" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="40957:41075" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="41229:41726" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="171" column="39" lean-forward="false" selection-start-line="171" selection-start-column="39" selection-end-line="171" selection-end-column="39" />
+          <folding>
+            <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808992619" expanded="false" signature="155:1464" ph="..." />
+            <marker date="1547808992619" expanded="true" signature="2677:2684" ph="{}" />
+            <marker date="1547808992619" expanded="false" signature="2741:2752" ph=" { " />
+            <marker date="1547808992619" expanded="false" signature="2775:2781" ph=" }" />
+            <marker date="1547808992619" expanded="true" signature="2869:3234" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="3326:6306" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="6391:6855" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="6933:7811" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="7931:8900" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="8996:10377" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="10534:11602" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="11724:12310" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="12394:13262" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="13338:14814" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="14890:15213" ph="{...}" />
+            <marker date="1547808992619" expanded="true" signature="15226:15660" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <marker date="1547808990842" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808990842" expanded="false" signature="137:426" ph="..." />
+            <marker date="1547808990842" expanded="true" signature="1104:1122" ph="/**...*/" />
+            <marker date="1547808990842" expanded="true" signature="1189:1207" ph="/**...*/" />
+            <marker date="1547808990842" expanded="true" signature="1253:1271" ph="/**...*/" />
+            <marker date="1547808990842" expanded="true" signature="1348:1366" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <marker date="1547808991844" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808991844" expanded="false" signature="149:933" ph="..." />
+            <marker date="1547808991844" expanded="true" signature="1190:1197" ph="{}" />
+            <marker date="1547808991844" expanded="true" signature="1285:1879" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="1972:2445" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="2561:2658" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="2772:3555" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="3649:3857" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="3959:4230" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="4356:4621" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="4755:5077" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="5205:6597" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="6675:8300" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="8402:8537" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="8657:8803" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="8901:8982" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="9096:9562" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="9641:11348" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="11437:11908" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="11991:12199" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="12260:12431" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="12493:12790" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="12882:12958" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="13069:13142" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="13262:13340" ph="{...}" />
+            <marker date="1547808991844" expanded="true" signature="13480:15702" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/ConfigurableWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1547808992619" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808992619" expanded="false" signature="155:287" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/DwvInstall/RepMaven/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <marker date="1547808991941" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1547808991941" expanded="false" signature="155:470" ph="..." />
+            <marker date="1547808991941" expanded="false" signature="813:824" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="866:872" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="959:1556" ph="{...}" />
+            <marker date="1547808991941" expanded="false" signature="1588:1599" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="1619:1625" ph=" }" />
+            <marker date="1547808991941" expanded="false" signature="1689:1700" ph=" { " />
+            <marker date="1547808991941" expanded="false" signature="1744:1750" ph=" }" />
+            <marker date="1547808991941" expanded="true" signature="1820:1984" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="2045:2388" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="2440:2702" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="2806:3342" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="3461:3818" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="3941:4483" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="4588:5330" ph="{...}" />
+            <marker date="1547808991941" expanded="true" signature="5361:6036" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>funding-shopp-message</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

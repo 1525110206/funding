@@ -1,0 +1,32 @@
+server:
+  port: 8764
+  context-path: /message
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: message
+  activemq:
+    broker-url: tcp://192.168.174.129:61616
+    in-memory: true
+    pool:
+      enabled: false
+  mail:
+    host: smtp.163.com
+    username: 13450583789@163.com
+    password: 19950820
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/itmayiedu-member
+    username: root
+    password: 123456789
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource

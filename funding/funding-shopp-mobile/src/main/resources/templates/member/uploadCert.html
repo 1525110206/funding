@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="stylesheet" href="asserts/bootstrap/css/bootstrap.min.css" th:href="@{/asserts/bootstrap/css/bootstrap.min.css}">
+      <link rel="stylesheet" href="asserts/css/font-awesome.min.css" th:href="@{/asserts/css/font-awesome.min.css}">
+      <link rel="stylesheet" href="asserts/css/theme.css" th:href="@{/asserts/css/theme.css}">
+	<style>
+#footer {
+    padding: 15px 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+	</style>
+  </head>
+  <body>
+ <div class="navbar-wrapper">
+      <div class="container">
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			  <div class="container">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="index.html" style="font-size:32px;">千寻-问答平台</a>
+				</div>
+            <div id="navbar" class="navbar-collapse collapse" style="float:right;">
+              <ul class="nav navbar-nav">
+                <li class="dropdown" th:insert="~{common/userinfo::topbar}">
+
+                </li>
+              </ul>
+            </div>
+			  </div>
+			</nav>
+
+      </div>
+    </div>
+
+    <div class="container theme-showcase" role="main">
+      <div class="page-header">
+        <h1>实名认证 - 申请</h1>
+      </div>
+
+		<ul class="nav nav-tabs" role="tablist">
+		  <li role="presentation" ><a href="#"><span class="badge">1</span> 基本信息</a></li>
+		  <li role="presentation" class="active"><a href="#"><span class="badge">2</span> 资质文件上传</a></li>
+		  <li role="presentation"><a href="#"><span class="badge">3</span> 邮箱确认</a></li>
+		  <li role="presentation"><a href="#"><span class="badge">4</span> 申请确认</a></li>
+		</ul>
+        
+		<form id="uploadCertForm" style="margin-top:20px;" method="post" enctype="multipart/form-data">
+
+
+
+                  <div th:each="queryCertByAccttype,loopStatus:${session.queryCertByAccttype}" class="form-group">
+                      <label th:text="${queryCertByAccttype.name}"></label>
+                      <input type="hidden" th:name="'certimgs[' + ${loopStatus.index } + '].certid'" th:value="${queryCertByAccttype.id }">
+                      <input type="file" th:name="'certimgs[' + ${loopStatus.index } + '].fileImg'" class="form-control" >
+                      <br>
+                      <img src="/crud/img/pic.jpg" style="display:none">
+                  </div>
+
+
+
+          <button type="button" onclick="window.location.href='apply.html'" class="btn btn-default">上一步</button>
+		  <button type="button" id="nextBtn"  class="btn btn-success">下一步</button>
+		</form>
+		<hr>
+    </div> <!-- /container -->
+        <div class="container" style="margin-top:20px;">
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div id="footer">
+                        <div class="footerNav">
+                             <a rel="nofollow" href="http://www.atguigu.com">关于我们</a> | <a rel="nofollow" href="http://www.atguigu.com">服务条款</a> | <a rel="nofollow" href="http://www.atguigu.com">免责声明</a> | <a rel="nofollow" href="http://www.atguigu.com">网站地图</a> | <a rel="nofollow" href="http://www.atguigu.com">联系我们</a>
+                        </div>
+                        <div class="copyRight">
+                            Copyright ?2017-2017 atguigu.com 版权所有
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     <script src="asserts/jquery/jquery-2.1.1.min.js" th:src="@{/asserts/jquery/jquery-2.1.1.min.js}"></script>
+     <script src="asserts/bootstrap/js/bootstrap.min.js" th:src="@{/asserts/bootstrap/js/bootstrap.min.js}"></script>
+     <script src="asserts/script/docs.min.js" th:src="@{/asserts/script/docs.min.js}"></script>
+     <script src="asserts/jquery/jquery-form/jquery-form.min.js" th:src="@{/asserts/jquery/jquery-form/jquery-form.min.js}"></script>
+	<script>
+
+        var pathName = document.location.pathname;
+        var index = pathName.substr(1).indexOf("/");
+        var result = pathName.substr(0,index+1);
+
+
+        $('#myTab a').click(function (e) {
+          e.preventDefault()
+          $(this).tab('show')
+        });
+
+        $(":file").change(function(event){
+            var files = event.target.files;
+            var file;
+
+            if (files && files.length > 0) {
+                file = files[0];
+
+                var URL = window.URL || window.webkitURL;
+                // 本地图片路径
+                var imgURL = URL.createObjectURL(file);
+
+                var imgObj = $(this).next().next(); //获取同辈紧邻的下一个元素
+                //console.log(imgObj);
+                imgObj.attr("src", imgURL);
+                imgObj.show();
+            }
+        });
+
+
+        $("#nextBtn").click(function(){
+            var options = {
+                url: result + "/member/doUploadCert",
+                beforeSubmit : function(){
+                    return true ; //必须返回true,否则,请求终止.
+                },
+                success : function(result){
+                    if(result.success){
+                        window.location.href="checkemail.html";
+                    }else{
+                    }
+                }
+            };
+
+            $("#uploadCertForm").ajaxSubmit(options); //异步提交
+            return ;
+        });
+
+
+
+
+	</script>
+  </body>
+</html>

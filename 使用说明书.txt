@@ -1,0 +1,16 @@
+问答系统系统初始化步骤
+一、系统安装及运行
+1.开发工具：IDEA，Navicat Premium 12
+2.开发环境：JDK1.8
+3.数据库：MySQL 5.5+
+4.操作系统：Windows 7 64位
+5.运行工具：Google Chrome，Fierfox
+6.硬件要求：Intel core i7,8GB内存
+二、系统使用步骤
+1.打开Navicat Premium 12，新建数据库并命名为question。打开数据库，将question.sql导入
+2.将项目导入eclipse，解压压缩包lib，导入lib，运行
+3.启动后，访问主页 http://localhost:8080/crud/
+进入登录页面
+4.点击登录
+系统默认提供如下账号：
+管理员账号13450583789 密码 123456

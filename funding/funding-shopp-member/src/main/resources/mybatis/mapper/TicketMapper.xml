@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.dao.TicketMapper">
+    <resultMap id="BaseResultMap" type="com.springboot.entity.TicketEntity" >
+        <id column="id" property="id"/>
+        <result column="memberid" property="memberid"/>
+        <result column="piid" property="piid"/>
+        <result column="status" property="status"/>
+        <result column="authcode" property="authcode"/>
+        <result column="pstep" property="pstep"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey">
+        delete from t_Ticket
+        where id = #{id}
+    </delete>
+    <insert id="saveTicket">
+        insert into t_ticket (memberid, status, pstep)
+        values (#{memberid},#{status},#{pstep})
+    </insert>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+        select *
+        from t_Ticket
+        where id = #{id}
+    </select>
+    <select id="selectAll" resultMap="BaseResultMap" >
+        select *
+        from t_Ticket
+    </select>
+
+    <select id="getTicketByMemberId" resultMap="BaseResultMap">
+        select *
+        from t_Ticket
+        where memberid = #{memberid} and status='0'
+    </select>
+
+
+    <update id="updatePstep">
+        update t_ticket set pstep=#{pstep} where memberid=#{memberid} and status='0'
+    </update>
+
+    <update id="updatePiidAndPstep">
+        update t_ticket set pstep=#{pstep},authcode=#{authcode} where id=#{id}
+    </update>
+
+    <update id="updateStatus">
+        update t_ticket set status='1' where memberid=#{memberid} and status='0'
+    </update>
+
+
+
+</mapper>

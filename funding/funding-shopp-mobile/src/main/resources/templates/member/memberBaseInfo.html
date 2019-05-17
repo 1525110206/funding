@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="stylesheet" href="/asserts/bootstrap/css/bootstrap.min.css" th:href="@{/asserts/bootstrap/css/bootstrap.min.css}">
+	<link rel="stylesheet" href="/asserts/css/font-awesome.min.css" th:href="@{/asserts/css/font-awesome.min.css}">
+	<link rel="stylesheet" href="/asserts/css/theme.css" th:href="@{/asserts/css/theme.css}">
+	<style>
+#footer {
+    padding: 15px 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+#topcontrol {
+  color: #fff;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: #222;
+  position: relative;
+  right: 14px !important;
+  bottom: 11px !important;
+  border-radius: 3px !important;
+}
+
+#topcontrol:after {
+  /*top: -2px;*/
+  left: 8.5px;
+  content: "\f106";
+  position: absolute;
+  text-align: center;
+  font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+    color: #fff;
+    background: #18ba9b;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+	</style>
+  </head>
+  <body>
+ <div class="navbar-wrapper">
+      <div class="container">
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			  <div class="container">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="index.html" style="font-size:32px;">千寻-问答平台</a>
+				</div>
+            <div id="navbar" class="navbar-collapse collapse" style="float:right;">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="/index.html" onclick="indexPage()" class="dropdown-toggle" data-toggle="dropdown"> 首页</a>
+                    </li>
+                </ul>
+
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> [[${session.member.username}]]<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/member/logout" th:href="@{/member/logout}"><i class="glyphicon glyphicon-off"></i> 退出系统</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+			  </div>
+			</nav>
+
+      </div>
+    </div>
+
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-sm-3 col-md-3 column">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="thumbnail" style="    border-radius: 0px;">
+						<img th:src="@{/asserts/img/services-box1.jpg}" class="img-thumbnail" alt="">
+						<div class="caption" style="text-align:center;">
+							<h3>
+								<p th:text="${session.member.username}"></p>
+							</h3>
+                            <span class="label label-danger" style="cursor:pointer;" onclick="toaccttype()" th:if="${session.member.authstatus} == 0">未实名认证</span>
+                            <span class="label label-danger" style="cursor:pointer;" th:if="${session.member.authstatus} == 1">实名认证申请中</span>
+                            <span class="label label-danger" style="cursor:pointer;" th:if="${session.member.authstatus} == 2">已实名认证</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-group">
+				<div class="list-group-item " style="cursor:pointer;" onclick="toMemberPage()">
+					我的问题<span class="badge"><i class="glyphicon glyphicon-chevron-right"></i></span>
+				</div>
+				<div class="list-group-item" style="cursor:pointer;" onclick="toMemberAnswerPage()">
+					我的回答<span class="badge"><i class="glyphicon glyphicon-chevron-right"></i></span>
+				</div>
+                <div class="list-group-item  active" style="cursor:pointer;">
+                    个人信息<span class="badge"><i class="glyphicon glyphicon-chevron-right"></i></span>
+                </div>
+			</div>
+		</div>
+        <div class="col-sm-9 col-md-9 column">
+            <div class="table-responsive">
+                <input type="hidden" id="APP_PATH" th:value="${application.APP_PATH}">
+                <form th:action="@{/member/update}" method="post">
+                    <div class="form-group">
+                        <label>用户名</label>
+                        <input name="username" type="text" class="form-control" th:value="${session.member!=null}?${session.member.username}">
+                    </div>
+                    <p style="color: red" th:text="${error}" th:if="${not #strings.isEmpty(error)}"></p>
+                    <div class="form-group">
+                        <label>手机号</label>
+                        <input name="phone" type="text" class="form-control" th:value="${session.member!=null}?${session.member.phone}">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input name="email" type="email" class="form-control" th:value="${session.member!=null}?${session.member.email}">
+                    </div>
+                    <div class="form-group">
+                        <label>password</label>
+                        <input name="password" type="text" class="form-control" th:value="${session.member!=null}?${session.member.password}">
+                    </div>
+                    <div class="form-group" th:if="${member == null}">
+                        <label>用户类型</label>
+                        <input name="usertype" type="text" class="form-control" th:value="${session.member.usertype}==1?'企业':'个人'">
+                    </div>
+                    <!--<button type="submit" class="btn btn-primary" th:text="${member!=null}?'修改':'添加'">添加</button>-->
+                </form>
+            </div>
+		</div>
+	</div>
+</div>
+
+ <script src="asserts/jquery/jquery-2.1.1.min.js" th:src="@{/asserts/jquery/jquery-2.1.1.min.js}"></script>
+ <script src="asserts/bootstrap/js/bootstrap.min.js" th:src="@{/asserts/bootstrap/js/bootstrap.min.js}"></script>
+ <script src="asserts/script/docs.min.js" th:src="@{/asserts/script/docs.min.js}"></script>
+ <script src="asserts/jquery/pagination/jquery.pagination.js" th:src="@{/asserts/jquery/pagination/jquery.pagination.js}"></script>
+ <script type="text/javascript" src="asserts/jquery/layer/layer.js" th:src="@{/asserts/jquery/layer/layer.js}"></script>
+
+
+ <script>
+        var APP_PATH = $("#APP_PATH").val();
+        function indexPage() {
+            window.location.href="index.html";
+        }
+
+        function toMemberAnswerPage() {
+            window.location.href=APP_PATH+"/member/tomemberanswer.html";
+        }
+
+        function toMemberPage(){
+            window.location.href=APP_PATH+"/member.html";
+        }
+
+        function toaccttype(){
+            window.location.href=APP_PATH+"/apply";
+        }
+        
+        function getLocalTime(nS) {
+            return new Date(parseInt(nS)).toLocaleString().replace(/:\d{1,2}$/,' ');
+        }
+        $(function () {
+            pageQuery(0);
+        });
+
+
+
+
+
+
+
+	</script>
+  </body>
+</html>

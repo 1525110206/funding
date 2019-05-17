@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.dao.AnswerMapper">
+
+    <resultMap id="BaseResultMap" type="com.springboot.entity.AnswerEntity" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="context" property="context"/>
+        <result column="mid" property="mid"/>
+        <result column="qid" property="qid"/>
+        <result column="created" property="created"/>
+    </resultMap>
+
+    <resultMap id="queryListResultMap" type="com.springboot.entity.AnswerEntity" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="context" property="context"/>
+        <result column="mid" property="mid"/>
+        <result column="qid" property="qid"/>
+        <result column="created" property="created"/>
+        <association property="userEntity" javaType="com.springboot.entity.UserEntity">
+            <result column="username" property="username"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="queryAnswerListResultMap" type="com.springboot.entity.AnswerEntity" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="context" property="context"/>
+        <result column="mid" property="mid"/>
+        <result column="qid" property="qid"/>
+        <result column="created" property="created"/>
+        <association property="questionEntity" javaType="com.springboot.entity.QuestionEntity">
+            <result column="title" property="title"/>
+        </association>
+    </resultMap>
+
+    <select id="queryAnswerList" resultMap="queryListResultMap">
+        select a.id, a.context, a.mid, a.qid, a.created, m.username
+        from t_answer a inner join t_member m on a.mid = m.id and a.qid = #{qid}
+        order by created desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="queryCount" resultType="int">
+        select count(*)
+        from t_answer
+        where qid = #{qid}
+    </select>
+
+    <select id="queryMemberAnswerList" resultMap="queryAnswerListResultMap">
+        select a.id, a.context, a.mid, a.qid, a.created, q.title
+        from t_answer a inner join t_question q on a.qid = q.id and a.mid = #{mid}
+        order by created desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="queryMemberCount" resultType="int">
+        select count(*)
+        from t_answer
+        where mid = #{mid}
+    </select>
+
+
+    <delete id="deleteAnswerByPrimaryKey" >
+        delete from t_answer
+        where id = #{id}
+    </delete>
+
+
+    <insert id="insertAnswer">
+        insert into t_answer (context,qid,mid,created,updated ) VALUES (#{context},
+        #{qid},#{mid},#{created},#{updated})
+    </insert>
+
+
+</mapper>

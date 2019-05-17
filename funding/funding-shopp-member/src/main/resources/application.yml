@@ -1,0 +1,56 @@
+server:
+  port: 8763
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: member
+  redis:
+    host: 192.168.174.129
+    password:
+    port: 6379
+    pool:
+      max-idle: 100  #最大连接空闲数，表示没有数据库连接时，依然可以保持100的空闲连接，不被清除
+      min-idle: 1
+      max-active: 1000  #最大连接数据库连接数
+      max-wait: -1  #最大建立连接等待时间， -1表示无限制
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/itmayiedu-member
+    username: root
+    password: 123456789
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  ##activemq连接信息
+  activemq:
+    broker-url: tcp://192.168.174.129:61616
+    in-memory: true
+    pool:
+      enabled: false
+##队列
+messages:
+   queue: mail_queue
+
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml  #指定mybatis全局配置文件的位置
+  mapper-locations: classpath:mybatis/mapper/*.xml  #指定sql映射文件的地址

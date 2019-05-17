@@ -1,0 +1,26 @@
+server:
+  port: 8762
+  context-path: /crud
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+#ribbon:
+#  eureka:
+#   enable: true
+
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: mobile
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/itmayiedu-member
+    username: root
+    password: 123456789
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource

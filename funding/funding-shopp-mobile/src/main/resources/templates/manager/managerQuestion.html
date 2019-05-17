@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Dashboard Template for Bootstrap</title>
+		<link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.3.0/css/bootstrap.css}" rel="stylesheet">
+		<link href="asserts/css/dashboard.css" th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+		<style type="text/css">
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--引入抽取的topbar-->
+		<!--模板名：会使用thymeleaf的前后缀配置规则进行解析-->
+		<div th:replace="common/bar::topbar"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<!--引入侧边栏-->
+				<div th:replace="common/bar::#sidebar(activeUri='emps')"></div>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+					<!--需要区分是员工修改还是添加；-->
+					<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+						<div class="table-responsive">
+							<input type="hidden" id="APP_PATH" th:value="${application.APP_PATH}">
+							<table class="table  table-bordered">
+								<thead>
+								<tr>
+									<th width="30">#</th>
+									<th>问题名称</th>
+									<th>用户名称</th>
+									<th>回答数</th>
+									<th>用户邮箱</th>
+									<th>创建时间</th>
+									<th width="100">操作</th>
+								</tr>
+								</thead>
+								<tbody>
+
+								</tbody>
+							</table>
+								<div id="Pagination">
+
+								</div>
+
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="asserts/jquery/jquery-2.1.1.min.js" th:src="@{/asserts/jquery/jquery-2.1.1.min.js}"></script>
+		<script src="asserts/bootstrap/js/bootstrap.min.js" th:src="@{/asserts/bootstrap/js/bootstrap.min.js}"></script>
+		<script src="asserts/script/docs.min.js" th:src="@{/asserts/script/docs.min.js}"></script>
+		<script src="asserts/jquery/pagination/jquery.pagination.js" th:src="@{/asserts/jquery/pagination/jquery.pagination.js}"></script>
+
+
+		<script type="text/javascript" src="asserts/jquery/layer/layer.js" th:src="@{/asserts/jquery/layer/layer.js}"></script>
+
+		<script type="text/javascript">
+
+
+            var pathName = document.location.pathname;
+            var index = pathName.substr(1).indexOf("/");
+            var result = pathName.substr(0,index+1);
+
+            var APP_PATH = $("#APP_PATH").val();
+
+            function getLocalTime(nS) {
+                return new Date(parseInt(nS)).toLocaleString().replace(/:\d{1,2}$/,' ');
+            }
+            $(function () {
+                pageQuery(0);
+            });
+
+
+
+            function pageQuery(pageindex) {
+                var loadingIndex = -1;
+
+                var obj = {
+                    "pageno" : pageindex+1,
+                    "pagesize" : 10
+                };
+
+                $.ajax({
+                    url : APP_PATH + "/manager/queryManagerQuestionPage",
+                    type : "POST",
+                    data : obj,
+                    beforeSend : function() {
+                        loadingIndex = layer.msg('数据查询中', {icon: 16});
+                        return true;
+                    },
+                    success : function( result ) {
+                        layer.close(loadingIndex);
+                        if ( result.success ) {
+                            // 将查询结果循环遍历，将数据展现出来
+                            var page = result.page;
+                            var data = page.datas;
+
+                            var content = "";
+                            $.each(data, function(i, n){
+                                content += '<tr>';
+                                content += '  <td>'+(i+1)+'</td>';
+                                content += '  <td>'+ n.title +'</td>';
+                                content += '  <td>'+ n.userEntity.username +'</td>';
+                                content += '  <td>'+ n.account +'</td>';
+                                content += '  <td>'+ n.userEntity.email +'</td>';
+                                content += '  <td>'+ getLocalTime(n.created) +'</td>';
+                                content += '  <td>';
+                                content += '      <button type="button" onclick="deleteUser('+n.id+',\''+n.title+'\')" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-xbt"></span></button>';
+                                content += '  </td>';
+                                content += '</tr>';
+                            });
+                            $("tbody").html(content);
+
+                            // 创建分页
+                            $("#Pagination").pagination(page.totalSize,{
+                                num_edge_entries: 1, //边缘页数
+                                num_display_entries: 2, //主体页数
+                                callback: pageQuery,
+                                /* items_per_page: 10, //每页显示1项 */
+                                current_page:(page.pageno-1),
+                                prev_text : "上一页",
+                                next_text : "下一页"
+                            });
+
+
+                        } else {
+                            layer.msg(result.message, {time:1000, icon:5, shift:6});
+                        }
+                    }
+                });
+            }
+            function deleteUser(id,title){
+                if(confirm("确认要删除"+ title +"吗？")){
+                    $.ajax({
+                        type:"POST",
+                        data:{
+                            "id":id
+                        },
+                        url:APP_PATH+"/question/dodeleteQuestion",
+                        beforeSend:function(){
+                            return true;
+                        },
+                        success:function(result){
+                            if(result.success){
+                                window.location.href=APP_PATH+"/manager/toManagerQuestion.html";
+                            }else{
+                                layer.msg(result.message, {time:1000, icon:5, shift:6});
+                            }
+
+                        },
+                        error:function(){
+                            layer.msg(result.message, {time:1000, icon:5, shift:6});
+                        }
+
+                    });
+                }
+            }
+
+
+		</script>
+	</body>
+
+</html>

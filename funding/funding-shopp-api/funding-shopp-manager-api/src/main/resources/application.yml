@@ -1,0 +1,10 @@
+
+
+spring:
+  datasource:
+      name: test
+      url: jdbc:mysql://127.0.0.1:3306/itmayiedu-member
+      username: root
+      password: 123456789
+      # 使用druid数据源
+      type: com.alibaba.druid.pool.DruidDataSource

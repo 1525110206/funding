@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.dao.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.springboot.entity.UserEntity" >
+        <id column="id" property="id" />
+        <result column="phone" property="phone"/>
+        <result column="password" property="password"/>
+        <result column="username" property="username"/>
+        <result column="email" property="email"/>
+        <result column="created" property="created"/>
+    </resultMap>
+
+    <resultMap id="getMemberByIdMap" type="com.springboot.entity.UserEntity" >
+        <id column="id" property="id" />
+        <result column="phone" property="phone"/>
+        <result column="password" property="password"/>
+        <result column="username" property="username"/>
+        <result column="email" property="email"/>
+        <result column="authstatus" property="authstatus"/>
+        <result column="usertype" property="usertype"/>
+        <result column="realname" property="realname"/>
+        <result column="cardnum" property="cardnum"/>
+        <result column="accttype" property="accttype"/>
+    </resultMap>
+
+
+    <insert id="saveUser">
+          insert into t_member (username,password,phone,usertype,email,created,updated ) VALUES (#{username},
+          #{password},#{phone},#{usertype},#{email},#{created},#{updated})
+    </insert>
+
+    <select id="getUserPhoneAndPwd" resultType="com.springboot.entity.UserEntity">
+         select ID,username,PASSWORD,phone,EMAIL,authstatus,usertype,realname,cardnum,accttype, created,updated from t_member  WHERE PHONE=#{phone} and password=#{password}
+    </select>
+
+    <select id="getUserInfo" resultType="com.springboot.entity.UserEntity">
+         select ID,username,PASSWORD,phone,EMAIL,authstatus,usertype,realname,cardnum,accttype, created,updated from t_member  WHERE id=#{id}
+    </select>
+
+    <select id="queryList" resultMap="BaseResultMap">
+        select id, phone, password, username, email, created
+        from t_member
+        <where>
+            <if test="queryText != null">
+                phone like concat("%",#{queryText},"%")
+            </if>
+        </where>
+        order by updated desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+
+    <select id="queryCount" resultType="int">
+        select count(*)
+        from t_member
+        <where>
+            <if test="queryText != null">
+                phone like concat("%",#{queryText},"%")
+            </if>
+        </where>
+    </select>
+
+
+    <select id="queryPhoneCount" resultType="int">
+        select count(*)
+        from t_member
+        where phone=#{phone}
+    </select>
+
+
+
+
+    <delete id="deleteByPrimaryKey" >
+        delete from t_member
+        where id = #{id}
+    </delete>
+
+    <update id="updateAcctType">
+        update t_member
+        set
+        accttype = #{accttype}
+        where id = #{id}
+    </update>
+
+    <update id="updateBasicinfo">
+        update t_member
+        set
+        realname = #{realname},
+        cardnum = #{cardnum}
+        where id = #{id}
+    </update>
+
+    <update id="updateEmail">
+        update t_member
+        set
+        email = #{email}
+        where id = #{id}
+    </update>
+
+
+    <update id="updateEmailAndUsername">
+        update t_member
+        set
+        email = #{email},
+        username = #{username},
+        updated = #{updated}
+        where id = #{id}
+    </update>
+
+
+    <select id="getMemberById" resultMap="getMemberByIdMap">
+        select id, password,phone, username, email, authstatus, usertype, realname,
+        cardnum, accttype
+        from t_member
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+    <select id="queryCertByMemberid" resultType="map">
+        SELECT t_cert.id,t_cert.name,t_member_cert.iconpath
+        FROM t_cert JOIN t_member_cert
+        ON t_cert.id = t_member_cert.certid
+        WHERE t_member_cert.memberid = #{memberid}
+    </select>
+
+    <select id="getMemberByAuth" resultMap="getMemberByIdMap">
+        select id, password,phone, username, email, authstatus, usertype, realname,
+        cardnum, accttype
+        from t_member
+        where authstatus = '1'
+    </select>
+
+    <select id="queryMemberByAuthCount" resultType="int">
+        select count(*)
+        from t_member
+        where authstatus = '1'
+    </select>
+
+    <update id="updateAuthstatus">
+        update t_member
+        set
+        authstatus = #{authstatus}
+        where id = #{id}
+    </update>
+
+
+</mapper>

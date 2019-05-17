@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul style="margin-top:10px;" th:fragment="sidebar">
+        <li style="height:30px;">
+            <a href="cert/index.htm" th:href="@{/certtype/index.html}"><i class="glyphicon glyphicon-picture"></i> 资质维护</a>
+        </li>
+        <li style="height:30px;">
+            <a href="cert/index.htm" th:href="@{/manager/index.html}"><i class="glyphicon glyphicon-picture"></i> 用户管理</a>
+        </li>
+    </ul>
+</body>
+</html>

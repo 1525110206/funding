@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/funding.iml" filepath="$PROJECT_DIR$/funding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-api/funding-shopp-api.iml" filepath="$PROJECT_DIR$/funding-shopp-api/funding-shopp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-common/funding-shopp-common.iml" filepath="$PROJECT_DIR$/funding-shopp-common/funding-shopp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-eurekaserver/funding-shopp-eurekaserver.iml" filepath="$PROJECT_DIR$/funding-shopp-eurekaserver/funding-shopp-eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-manager/funding-shopp-manager.iml" filepath="$PROJECT_DIR$/funding-shopp-manager/funding-shopp-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-api/funding-shopp-manager-api/funding-shopp-manager-api.iml" filepath="$PROJECT_DIR$/funding-shopp-api/funding-shopp-manager-api/funding-shopp-manager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-member/funding-shopp-member.iml" filepath="$PROJECT_DIR$/funding-shopp-member/funding-shopp-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/funding-shopp-member-api.iml" filepath="$PROJECT_DIR$/funding-shopp-api/funding-shopp-member-api/funding-shopp-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-message/funding-shopp-message.iml" filepath="$PROJECT_DIR$/funding-shopp-message/funding-shopp-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funding-shopp-mobile/funding-shopp-mobile.iml" filepath="$PROJECT_DIR$/funding-shopp-mobile/funding-shopp-mobile.iml" />
+    </modules>
+  </component>
+</project>
